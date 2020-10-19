@@ -1,0 +1,19 @@
+{
+  "name": "cryptoBot",
+  "version": "1.0.0",
+  "description": "This bot tells you the price of crypto currencies",
+  "main": "bot.js",
+  "scripts": {
+    "start": "micro-bot",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": [],
+  "author": "steevgr3y",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "micro-bot": "^2.5.3",
+    "nodemon": "^2.0.5",
+    "telegraf": "^3.38.0"
+  }
+}
