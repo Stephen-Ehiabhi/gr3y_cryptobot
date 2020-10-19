@@ -136,5 +136,4 @@ bot.hears('Remove keyboard',ctx => {
 //     if(err) console.log(`Error connecting to telegram${err}`);
 //     else console.log('connected to telegram');  
 // })
-//https://quiet-fjord-64033.herokuapp.com/
-module.export= bot
+module.exports= bot;
