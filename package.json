@@ -2,7 +2,7 @@
   "name": "cryptoBot",
   "version": "1.0.0",
   "description": "This bot tells you the price of crypto currencies",
-  "main": "bot.js",
+  "main": "index.js",
   "scripts": {
     "start": "micro-bot",
     "dev": "nodemon bot.js"
