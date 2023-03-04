@@ -2,9 +2,8 @@ const { Telegraf } = require("telegraf");
 //const { Composer } = require("micro-bot");
 
 const axios = require("axios");
-const token = "1355826812:AAFXvRKMvJblMm03Hc3ToITSDYNS1ANm_Ww";
-const apikey =
-  "eb6f4b0bd8d38654244b4e638355395f90da3983e4ccf631dbcb8c16ec9882a9";
+const token = process.env.TOKEN;
+const apikey = process.env.APIKEY;
 
 const bot = new Telegraf(token);
 
